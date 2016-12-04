@@ -160,16 +160,26 @@ a.custom_link {
   color: #936826;
   text-decoration: none;
 }
-@media only screen and (min-width: 1024px) {
+a {
+  color: #0000cc;
+  text-decoration: none;
+}
+@media only screen and (min-width: 2001px) {
+  .container, .footer {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 2000px){
 .text {
     top: 3%;
     margin-left: 65%;
-    width: 16rem;
+    width: 19rem;
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 2% 2% 2% 0;
     z-index: 1;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .tagline {
     font-weight: 800;
@@ -220,7 +230,7 @@ a.custom_link {
     position: absolute;
 }
 .testimony {
-    margin: 12% 2% 2% 4%;
+    margin: 10.5% 2% 2% 4%;
     text-align: left;
 }
 }
@@ -297,10 +307,10 @@ a.custom_link {
 .text {
     top: 13%;
     margin-left: 58%;
-    width: 9.5rem;
+    width: 10rem;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 2% 2% 2% 0;
+    padding: 0 2% 2% 2%;
     font-size: 0.9em;
 }
 .tagline {
@@ -430,7 +440,7 @@ a.custom_link {
     <a href="#">Link 2></a>
     <a href="#">Link 3></a></div>
   </div>
-  <p class="text"><span class="tagline">DOCUMENTING LIVES AND ORGANIZATIONS</span><br>My photography practice is focused on sensitively telling the stories of everyday people.
+  <p class="text"><span class="tagline">DOCUMENTING LIVES AND ORGANIZATIONS</span><br>My photography practice is focused on sensitively telling the <a href="">stories</a> of everyday people.
   </p>
   <img class="hero" src="img/Relearning-how-to-9.jpg" />
 
